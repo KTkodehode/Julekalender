@@ -40,11 +40,14 @@ if (event.target == modal) {
 document.getElementById("notToday").src="./img/grinch-yes-no.gif";
 
 
-
+// var d = new Date();
+// var todaysDate = d.getDate();
 
 
   
-  // // ** Lager og Appender til div
+  //  * Array Appending from folder
+
+  // * Versjon 1
   // const imgCont = document.querySelector(".imageContainer");
   
   // for (let i = 1; i < 25; i++){
@@ -54,18 +57,25 @@ document.getElementById("notToday").src="./img/grinch-yes-no.gif";
   //   imgCont.append(img);
   
   // }
+  // * Versjon 2
   
-  
+// const imgCont = document.querySelector(".imageContainer");
 
-    // const imgCont = document.querySelector(".imageContainer");
+// imgArray = [
+//   "img1.png",
+//   "img1.png",
+//   "img1.png",
+//   "img1.png",
+//   "img1.png",
+//   "img1.png",
+//   "img1.png",
+// ];
 
-    // for (let i = 1; i < 25; i++){
-    //     const img = document.createElement("img");
-    //     img.src = `/baubels/b${i}.png`;
-        
-    //     imgCont.append(img);
+// imgArray.forEach((e) => {
+//   const img = document.createElement("img");
+//   img.src = `./images/${e}`;
+//   imgCont.append(img);
+// });
 
-    // }
+// console.log(imgCont);
 
-// var d = new Date();
-// var todaysDate = d.getDate();
