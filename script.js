@@ -37,7 +37,14 @@ if (event.target == modal) {
 }
 }
 
-document.getElementById("notToday").src="./img/grinch-yes-no.gif";
+
+let test = document.querySelector(".cal.one").style = "background-image: url(./baubels/b1.png)"
+
+
+
+
+let grinch = document.getElementById("notToday").src="./img/grinch-yes-no.gif";
+document.getElementById("yesToday").src="./baubels/b1.png";
 
 
 // var d = new Date();
